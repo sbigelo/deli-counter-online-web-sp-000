@@ -15,6 +15,6 @@ end
 
 def take_a_number(katz_deli, name)
   if katz_deli.empty?
-    katz_deli.shift(name)
+    katz_deli.insert(0, name)
   end
 end
